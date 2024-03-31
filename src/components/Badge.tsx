@@ -44,7 +44,7 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      Powered by
+      Lavet Af
       <a
         ref={liteBadge}
         href={'https://dialogintelligens.dk'}
