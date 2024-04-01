@@ -47,14 +47,14 @@ export const Badge = (props: Props) => {
       Lavet Af
       <a
         ref={liteBadge}
-        href={'https://dialogintelligens.dk'}
+        href={'https://flowiseai.com'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Dialog Intelligens</span>
+        <span> Flowise</span>
       </a>
     </span>
   );
